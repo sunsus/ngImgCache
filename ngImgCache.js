@@ -1,4 +1,4 @@
-angular.module('ngImgCache', ['ionic.utils'])
+angular.module('ngImgCache', [])
 .run(function($ionicPlatform, $log) {
     ImgCache.options.debug = false;
     ImgCache.options.chromeQuota = 50*1024*1024;        
